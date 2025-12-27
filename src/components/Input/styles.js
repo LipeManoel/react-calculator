@@ -20,7 +20,10 @@ export const InputContainer = styled.div`
         align-items: flex-end;
         padding: 0 12px;
         font-size: 45px;
-        font-family: 'Roboto';
+        font-family: monospace;
+}
+
+        margin-bottom: 10px;
     }
 
     @media (max-width: 640px) {

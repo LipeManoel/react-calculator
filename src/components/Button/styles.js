@@ -5,24 +5,23 @@ export const ButtonContainer = styled.button`
     font-size: 45px;
     border: none;
     margin: 3px;
-    background: linear-gradient(135deg, #3c27b4, #6a5acd);
+    background: linear-gradient(135deg, #828185ff, #acacacff);
     color: #000000ff;
-    font-family: 'Roboto';
+    font-family: monospace;
     font-weight: bold;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.1s ease-in-out;
     flex: 1;
 
     &:hover {
-        transform: scale(0.95);
+        transform: scale(0.97);
         cursor: pointer;
     }
 
     @media (max-width: 640px) {
         font-size: 30px;
         padding: 20px;
-        
     }
     
     @media (max-width: 320px) {
